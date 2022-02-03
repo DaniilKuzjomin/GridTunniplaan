@@ -1,0 +1,15 @@
+multimeedia.png Multimeedia: A218, Pant Gert
+python.png Programmeerimise alused: E07, Oleinik Marina
+Ruhmajuhataja tund: E07, Oleinik Marina
+english.png Inglise keel1: B138, Poskotinova Olga
+english.png Inglise keel2: B148, Zestjakova Elina
+OS.png Operatsioonisusteemide alused: A243, Shkarabanova Lury
+Kehaline Kasvatus: Voimla A, Maksõmiv Maksim
+Eesti keel1: B226, Peetrimägi Irina
+Eesti keel2: B234, Ojamäe Olesja
+Ajalugu, inimgeograafia: B233, Speek Mari
+Kunstiained: B232, Norkevits Aleksandra
+Andmebaasisusteemide alused: E10, Merkulova Irina
+Keel ja kirjandus: B221, Mihhailova Ljudmila
+Matemaatika: B133, Voronova Nadezda, 
+Suhtlemine ja klienditeenindus: B003, Schumann Sirje
