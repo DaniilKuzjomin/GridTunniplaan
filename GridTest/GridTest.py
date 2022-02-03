@@ -22,6 +22,10 @@ def window_text(t:str):
         alam_aken.geometry("510x130")
         lbl_r=Label(alam_aken, text=tund_r[t], font="Arial 30").grid(row=1, column=0)
         c=Canvas(alam_aken, height=500, width=500)
+        file=PhotoImage(file="english.png")
+        file=PhotoImage(file="multimeedia.png")
+        file=PhotoImage(file="OS.png")
+        file=PhotoImage(file="python.png")
         file=PhotoImage(file="amogus.gif")
         c.create_image(10,10,image=file,anchor=NW)
         c.grid(row=2, column=1)
@@ -40,7 +44,9 @@ Probel=Label(Tunniplaan, text=" ", height=2, width=9, font="Arial 20", bg="white
 l2=Label(Tunniplaan, text="Esmaspäev", height=3, width=9, font="Arial 20", fg="#000000", bg="white", relief="groove").grid(row=1, column=0, rowspan=2, sticky=N+S+W+E)
 Probel=Label(Tunniplaan, text=" ", height=3, width=5, font="Arial 20", bg="white", relief="groove").grid(row=1, column=1,rowspan=2,sticky=N+S+W+E)
 
+Mul=Button(Tunniplaan, text="Multimeedia", height=2, width=3, font="Arial 12",fg="#000000", bg="#9370DB", relief="groove", command=lambda:window_text("multimeedia.png Multimeedia", )).grid(row=1, column=2,columnspan=2,sticky=N+S+W+E )
 Mul=Button(Tunniplaan, text="Multimeedia", height=2, width=3, font="Arial 12",fg="#000000", bg="#9370DB", relief="groove", command=lambda:window_text("amogus.gif Multimeedia", )).grid(row=1, column=2,columnspan=2,sticky=N+S+W+E )
+
 Prog=Button(Tunniplaan, text="Programmeerimise alused", height=2, width=6, font="Arial 12",fg="#000000", bg="#87CEEB", relief="groove",command=lambda:window_text("Programmeerimise alused")).grid(row=2, column=2,columnspan=3,sticky=N+S+W+E)
 Probel=Label(Tunniplaan, text=" ", height=2, width=6, font="Arial 12",fg="#000000", bg="white", relief="groove").grid(row=1, column=4,sticky=N+S+W+E)
 Prog=Button(Tunniplaan, text="Programmeerimise alused", height=2, width=6, font="Arial 12",fg="#000000", bg="#87CEEB", relief="groove",command=lambda:window_text("Programmeerimise alused")).grid(row=1, column=5,columnspan=3,sticky=N+S+W+E)
@@ -54,8 +60,12 @@ Probel=Label(Tunniplaan, text=" ", height=2, width=6, font="Arial 12",fg="#00000
 l2=Label(Tunniplaan, text="Teisipäev", height=3, width=9, font="Arial 20", fg="#000000", bg="white", relief="groove").grid(row=3, column=0, rowspan=2, sticky=N+S+W+E)
 Probel=Label(Tunniplaan, text=" ", height=3, width=5, font="Arial 20", bg="white", relief="groove").grid(row=3, column=1,rowspan=2,sticky=N+S+W+E )
 
+Eng1=Button(Tunniplaan, text="Inglise keel", height=2, width=6, font="Arial 12",fg="#000000", bg="#FFF8DC", relief="groove",command=lambda:window_text("english.png Inglise keel1")).grid(row=3, column=2,columnspan=2 ,sticky=N+S+W+E)
+Eng2=Button(Tunniplaan, text="Inglise keel", height=2, width=6, font="Arial 12",fg="#000000", bg="#BA55D3", relief="groove",command=lambda:window_text("english.png Inglise keel2")).grid(row=4, column=2,columnspan=2 ,sticky=N+S+W+E)
+
 Eng1=Button(Tunniplaan, text="Inglise keel", height=2, width=6, font="Arial 12",fg="#000000", bg="#FFF8DC", relief="groove",command=lambda:window_text("Inglise keel1")).grid(row=3, column=2,columnspan=2 ,sticky=N+S+W+E)
 Eng2=Button(Tunniplaan, text="Inglise keel", height=2, width=6, font="Arial 12",fg="#000000", bg="#BA55D3", relief="groove",command=lambda:window_text("Inglise keel2")).grid(row=4, column=2,columnspan=2 ,sticky=N+S+W+E)
+
 Oper=Button(Tunniplaan, text="Operatsioonisüsteemide alused", height=2, width=6, font="Arial 8",fg="#000000", bg="#9932CC", relief="groove",command=lambda:window_text("Operatsioonisusteemide alused")).grid(row=3, column=4,rowspan=2,columnspan=2 ,sticky=N+S+W+E)
 Probel=Label(Tunniplaan, text=" ", height=2, width=6, font="Arial 8",fg="#000000", bg="white", relief="groove").grid(row=3, column=6,rowspan=2,columnspan=1 ,sticky=N+S+W+E)
 Keh=Button(Tunniplaan, text="Kehaline kasvatus", height=2, width=6, font="Arial 8",fg="#000000", bg="#CD5C5C", relief="groove",command=lambda:window_text("Kehaline Kasvatus")).grid(row=3, column=7,rowspan=2,columnspan=2 ,sticky=N+S+W+E)
